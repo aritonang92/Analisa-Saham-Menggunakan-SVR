@@ -1,4 +1,4 @@
-# Analisis pergerakan harga saham empat bank BUMN di Indonesia (BMRI, BNI, BRT, BTN)
+# Analisis pergerakan harga saham empat bank BUMN di Indonesia (BMRI, BBNI, BBRI, BBTN)
 
 Repository ini mencoba untuk menjelaskan sedikit mengenai analisis variasi pergerakan harga saham empat Bank BUMN di Indonesia menggunakan Support Vector Regression (SVR). Support Vector Regression atau disingkat SVR merupakan pengembangan dari SVM (Support Vector Machine) salah satu algoritma supervised machine learning. Secara singkat metode SVR mencoba untuk membangun sebuah model yang mana memiliki nilai sedekat mungkin terhadap data aktual yang diuji (data training maupun data testing).
 Informasi yang ingin diperoleh dari repository ini adalah perkiraan kedepan mengenai harga saham sehingga dapat dijadikan rujukan oleh para pengambil keputusan. 
