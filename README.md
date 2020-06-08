@@ -7,7 +7,7 @@ Pengerjaan proyek ini menggunakan bahasa R dengan library e1071 dan data yang di
 Sistematika pengerjaan proyek : 
 
 1. Mengunduh data historical price (harian, mingguan dan bulanan) dari www.finance.yahoo.com berdasarkan kode saham masing-masing bank (misal BMRI.JK, BBNI.JK dst). Pada repository ini data diunduh mulai tanggal 1 Januari 2020 sd 4 Juni 2020.
-2. Melakukan data cleaning seperti pemisahan kolom/kategori data yang tidak dipakai, pengubahan class setiap variabel, dan penyesuai data numerik.
+2. Melakukan data cleaning seperti pemisahan kolom/kategori data yang tidak dipakai, pengubahan class setiap variabel, dan penyesuaian data numerik.
 3. Membagi setiap dataset (harian, mingguan dan bulanan) menjadi training dan testing data dengan perbandingan 80:20
 4. Melakukan teknik SVR pada setiap data untuk mendapatkan model yang paling akurat/mendekati data aktual. Memvariasikan fungsi kernel (Radial, Linear, Polinomial dan Sigmoid) dapat membantu dalam proses ini, setelah itu dilakukan plotting.
 5. Melihat variasi error (perbedaan data aktual dan data prediksi), nilai error ini digunakan untuk evaluasi model. Evaluasi model bertujuan untuk mengukur keakuratan suatu model yang sudah dihasilkan,parameter evaluasi antara lain : MAPE (Mean Absolute Percentage Error), RMSE (Root Mean Square Error) dan NRMSE (Normalized Root Mean Square Error).
